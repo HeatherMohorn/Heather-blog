@@ -13,10 +13,11 @@ body {
   border-style: solid;
 }
 
-.container{
-  display:grid;
-  grid-template-columns: 300 px 300 px 300 px;
-  grid-template-rows: 250 px 600 px;
+.grid{
+  display: grid;
+  grid-template-columns: 300 px auto 300 px;
+  grid-template-rows: 250 px auto 250 px;
+  grid-gap: 1 em;
   grid-template-areas: "hd hd hd hd hd hd"
                       "sd sd main main main main"
                       "ft ft ft ft ft ft";
@@ -24,10 +25,6 @@ body {
 
 .header{
   grid-area:hd;
-  border: 2 px;
-  border-color: black;
-  border-radius: 2 px;
-  background-color: white;
 }
 
 .footer{
