@@ -2,3 +2,37 @@ body {
   background-color: #add8e6;
   font-family: sans-serif;
 }
+
+.box {
+  padding: 5 px;
+  margin: 5 px;
+  border: 2 px;
+  border-color: black;
+  border-radius: 2 px;
+  background-color: white;
+}
+
+.container{
+  display:grid;
+  grid-template-columns: 300 px 300 px 300 px;
+  grid-template-rows: 250 px 600 px;
+  grid-template-areas: "hd hd hd hd hd hd"
+                      "sd sd main main main main"
+                      "ft ft ft ft ft ft";
+}
+
+.header{
+  grid-area:hd;
+}
+
+.footer{
+  grid-area:ft;
+}
+
+.sidebar{
+  grid-area:sd;
+}
+
+.content{
+  grid-area:main;
+}
