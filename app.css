@@ -23,6 +23,10 @@ body {
 
 .header{
   grid-area:hd;
+  border: 2 px;
+  border-color: black;
+  border-radius: 2 px;
+  background-color: white;
 }
 
 .footer{
