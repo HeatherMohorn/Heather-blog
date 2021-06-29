@@ -6,10 +6,11 @@ body {
 .box {
   padding: 5 px;
   margin: 5 px;
-  border: 2 px;
+  border: 1 px;
   border-color: black;
   border-radius: 2 px;
   background-color: white;
+  border-style: solid;
 }
 
 .container{
