@@ -44,6 +44,9 @@ body {
 
 .content{
   grid-area:main;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 
