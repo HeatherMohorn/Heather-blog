@@ -43,9 +43,6 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url("silhou.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 @media(min-width:900px){
