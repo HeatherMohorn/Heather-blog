@@ -18,7 +18,7 @@ body {
   margin:2vw;
   grid-gap: 2vw;
   grid-template-columns: 96vw;
-  grid-template-rows: 15vw 20vw 40vw 10vw;
+  grid-template-rows: 15vw 20vw auto 10vw;
   grid-template-areas:
   "hd"
   "sd"
@@ -45,12 +45,18 @@ body {
   flex-wrap: wrap;
 }
 
+/*
+.card-image-top{
+  height:18rem;
+}
+*/
+
 @media(min-width:900px){
   .grid{
     display:grid;
     height: 100vw;
     margin:2vw;
-    grid-template-rows: 15vw 50vw 15vw;
+    grid-template-rows: 15vw auto 15vw;
     grid-template-columns: 10vw 10vw 1fr;
     grid-template-areas:
     "hd hd hd hd hd hd hd hd"
