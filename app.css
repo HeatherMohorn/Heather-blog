@@ -45,11 +45,6 @@ body {
   flex-wrap: wrap;
 }
 
-/*
-.card-image-top{
-  height:18rem;
-}
-*/
 
 @media(min-width:900px){
   .grid{
