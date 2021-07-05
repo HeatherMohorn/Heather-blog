@@ -18,7 +18,7 @@ body {
   margin:2vw;
   grid-gap: 2vw;
   grid-template-columns: 96vw;
-  grid-template-rows: 15vw 20vw auto 10vw;
+  grid-template-rows: 15vw 20vw auto auto;
   grid-template-areas:
   "hd"
   "sd"
@@ -52,7 +52,7 @@ body {
     height: 100vw;
     margin:2vw;
     grid-template-rows: 15vw auto 15vw;
-    grid-template-columns: 10vw 10vw 1fr;
+    grid-template-columns: 10vw 10vw auto;
     grid-template-areas:
     "hd hd hd hd hd hd hd hd"
     "sd sd main main main main main main"
