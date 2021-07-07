@@ -38,24 +38,16 @@
   justify-content: center;
 }
 
-
-.card-image-container{
-  height:40%;
-}
-.card-body{
-  align-content: flex-start;
-  height:60%;
+#sidebar-nav{
+  flex-direction: row;
 }
 
 .card{
-  height:500px;
+  height:400px;
 }
 
 .small{
   font-size: 10px;
-}
-#sidebar-nav{
-  flex-direction: row;
 }
 
 @media(min-width:900px){
