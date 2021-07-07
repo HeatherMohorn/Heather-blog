@@ -1,14 +1,15 @@
 body {
-  background-color: #add8e6;
+  background-color: #2F795D;
   font-family: "Nunito";
+  color:#1E5C5C;
 }
 
 .box {
   padding: 1em;
   margin: 10 px;
   border: 1 px;
-  border-color: black;
-  border-radius: 2 px;
+  border-color: #1E5C5C;
+  border-radius: 10 px;
   background-color: white;
   border-style: solid;
 }
@@ -64,4 +65,12 @@ body {
     grid-gap: 2vw;
 
   }
+}
+
+.nav-link{
+  color:#1E5C5C;
+}
+
+.nav-link:hover{
+  color:#71A870;
 }
