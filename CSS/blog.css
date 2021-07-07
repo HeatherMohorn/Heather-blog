@@ -36,15 +36,24 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+}
+
+
+.card-image-container{
+  height:40%;
+}
+.card-body{
+  align-content: flex-start;
+  height:60%;
 }
 
 .card{
-  justify-content: center;
-  margin: 2em;
-  width: 18rem;
+  height:500px;
 }
 
+.small{
+  font-size: 10px;
+}
 #sidebar-nav{
   flex-direction: row;
 }
