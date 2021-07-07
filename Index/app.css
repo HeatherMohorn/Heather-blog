@@ -46,6 +46,8 @@ body {
   grid-area:sd;
 }
 
+
+
 .content{
   grid-area:main;
   display: flex;
