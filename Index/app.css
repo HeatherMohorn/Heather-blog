@@ -49,6 +49,12 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card{
+  margin:.5em;
 }
 
 @media(min-width:900px){
