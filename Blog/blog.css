@@ -4,6 +4,15 @@ body {
   color:#1E5C5C;
 }
 
+h6{
+  font-style: italic;
+}
+
+h1{
+  justify-content: center;
+}
+
+
 .box {
   padding: 1em;
   margin: 10 px;
@@ -48,6 +57,13 @@ body {
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  justify-content: center;
+  margin: 2em;
 }
 
 #sidebar-nav{
@@ -67,7 +83,7 @@ body {
     "ft ft ft ft ft ft ft ft";
     grid-gap: 2vw;
   }
-  
+
   #sidebar-nav{
     flex-direction: column;
   }
