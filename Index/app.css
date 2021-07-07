@@ -18,7 +18,7 @@ body {
   margin:2vw;
   grid-gap: 2vw;
   grid-template-columns: 96vw;
-  grid-template-rows: auto 15vw auto 1fr;
+  grid-template-rows: auto 15vh auto 1fr;
   grid-template-areas:
   "hd"
   "sd"
@@ -56,13 +56,13 @@ body {
     display:grid;
     height: 100vw;
     margin:2vw;
-    grid-template-rows: 15vw auto 1fr;
-    grid-template-columns: 10vw 10vw auto;
+    grid-template-rows: 15vh auto auto;
+    grid-template-columns: 10vw auto;
     grid-template-areas:
-    "hd hd hd hd hd hd hd hd"
-    "sd sd main main main main main main"
-    "ft ft ft ft ft ft ft ft";
-    grid-gap: 2vw;
+    "hd hd hd"
+    "sd main main"
+    "ft ft ft";
+    grid-gap: 2em;
 
   }
 }
