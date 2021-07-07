@@ -44,9 +44,13 @@ body {
 
 .sidebar{
   grid-area:sd;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+
 }
-
-
 
 .content{
   grid-area:main;
@@ -85,7 +89,13 @@ body {
     "sd main"
     "ft ft";
     grid-gap: 2em;
+  }
 
+  .sidebar{
+    grid-area:sd;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
   }
 }
 
