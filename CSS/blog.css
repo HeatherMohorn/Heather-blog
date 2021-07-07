@@ -1,34 +1,4 @@
-body {
-  background-color: #2F795D;
-  font-family: "Nunito";
-  color:#1E5C5C;
-}
-
-h6{
-  font-style: italic;
-}
-
-h5{
-  font-weight: bold;
-}
-
-h1{
-  justify-content: center;
-}
-
-q{
-  background-color: #a8da88;
-}
-
-.box {
-  padding: 1em;
-  margin: 10 px;
-  border: 1 px;
-  border-color: #1E5C5C;
-  border-radius: 10px;
-  background-color: white;
-  border-style: solid;
-}
+@import "app.css";
 
 .grid{
   display:grid;
@@ -72,6 +42,7 @@ q{
 .card{
   justify-content: center;
   margin: 2em;
+  width: 18rem;
 }
 
 #sidebar-nav{
@@ -95,41 +66,4 @@ q{
   #sidebar-nav{
     flex-direction: column;
   }
-}
-
-.nav-link{
-  color:#1E5C5C;
-}
-
-.nav-link:hover{
-  color:#71A870;
-}
-
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
 }

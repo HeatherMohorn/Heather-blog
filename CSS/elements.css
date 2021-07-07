@@ -1,0 +1,21 @@
+body {
+  background-color: #2F795D;
+  font-family: "Nunito";
+  color:#1E5C5C;
+}
+
+h1{
+  justify-content: center;
+}
+
+h5{
+  font-weight: bold;
+}
+
+h6{
+  font-style: italic;
+}
+
+q{
+  background-color: #a8da88;
+}

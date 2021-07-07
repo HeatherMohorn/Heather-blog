@@ -1,10 +1,4 @@
-body {
-  background-color: #2F795D;
-  font-family: "Nunito";
-  color:white;
-  padding: 1em;
-  margin:1 em;
-}
+@import "app.css";
 
 a{
   color:white;
