@@ -87,6 +87,10 @@ body {
   }
 }
 
-a{
+.nav-link{
   color:#1E5C5C;
+}
+
+.nav-link:hover{
+  color:#71A870;
 }
