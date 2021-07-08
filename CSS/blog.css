@@ -1,46 +1,5 @@
 @import "app.css";
 
-/*
-.grid{
-  display:grid;
-  margin:2vw;
-  grid-gap: 2vw;
-  grid-template-columns: 96vw;
-  grid-template-rows: auto auto 15vw  auto;
-  grid-template-areas:
-  "hd"
-  "main"
-  "sd"
-  "ft";
-}*/
-
-/*
-
-.header{
-  grid-area:hd;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.sidebar{
-  grid-area:sd;
-  justify-content: space-around;
-}
-
-.content{
-  grid-area:main;
-  display:flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-#sidebar-nav{
-  flex-direction: column;
-}
-*/
 .card{
   height:400px;
 }
@@ -50,31 +9,7 @@
   justify:center;
 }
 
-/*
-@media(min-width:900px){
-  .grid{
-    display:grid;
-    height: 100vw;
-    margin:2vw;
-    grid-template-rows: 15vw auto 15vw;
-    grid-template-columns: 10vw 10vw auto;
-    grid-template-areas:
-    "hd hd hd hd hd hd hd hd"
-    "sd sd main main main main main main"
-    "ft ft ft ft ft ft ft ft";
-    grid-gap: 2vw;
-  }
-
-  .sidebar{
-    justify-content: flex-start;
-  }
-}
-<<<<<<< HEAD
-*/
-@media only screen and (max-width: 600px) {
-||||||| merged common ancestors
-
-@media(max-width:600px){
+@media screen and (max-width: 600px){
   .grid{
     display:grid;
     height:100vh;
@@ -87,10 +22,6 @@
     "sd"
     "ft";
   }
-=======
-*/
-@media (min-width: 600px){
->>>>>>> tmp
 
   p{
     width: 85vw;

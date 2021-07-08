@@ -114,24 +114,17 @@
   .sidebar{
     grid-area:sd;
     display: flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    align-items: center;
+    flex-direction: column;
+
   }
 }
 
-<<<<<<< HEAD
-@media screen{
-||||||| merged common ancestors
-@media(max-width:600px){
-=======
 @media (min-width: 600px){
->>>>>>> tmp
+
   .sidebar{
     grid-area:sd;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: inline-block;
+
     padding: 1em;
   }
 
