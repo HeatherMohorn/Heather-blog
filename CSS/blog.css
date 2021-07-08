@@ -1,5 +1,6 @@
 @import "app.css";
 
+/*
 .grid{
   display:grid;
   margin:2vw;
@@ -11,7 +12,9 @@
   "main"
   "sd"
   "ft";
-}
+}*/
+
+/*
 
 .header{
   grid-area:hd;
@@ -19,11 +22,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer{
-  grid-area:ft;
-  display: inline;
 }
 
 .sidebar{
@@ -42,15 +40,17 @@
 #sidebar-nav{
   flex-direction: column;
 }
-
+*/
 .card{
   height:400px;
 }
 
 .small{
   font-size: 10px;
+  justify:center;
 }
 
+/*
 @media(min-width:900px){
   .grid{
     display:grid;
@@ -60,7 +60,7 @@
     grid-template-columns: 10vw 10vw auto;
     grid-template-areas:
     "hd hd hd hd hd hd hd hd"
-    "main main main main main main sd sd"
+    "sd sd main main main main main main"
     "ft ft ft ft ft ft ft ft";
     grid-gap: 2vw;
   }
@@ -69,20 +69,8 @@
     justify-content: flex-start;
   }
 }
-
+*/
 @media(max-width:600px){
-  .grid{
-    display:grid;
-    height:100vh;
-    margin:1vw;
-    grid-template-columns:98vw;
-    grid-template-rows: auto auto 15vh  auto;
-    grid-template-areas:
-    "hd"
-    "main"
-    "sd"
-    "ft";
-  }
 
   p{
     width: 85vw;
@@ -91,5 +79,16 @@
   q{
     width:85vw;
   }
+  .content{
+    display:block;
+  }
 
+  img{
+    width: 50vw;
+  }
+
+  .card-body{
+    display:block;
+    justify-content: center;
+  }
 }
