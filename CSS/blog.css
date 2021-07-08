@@ -69,8 +69,28 @@
     justify-content: flex-start;
   }
 }
+<<<<<<< HEAD
 */
 @media only screen and (max-width: 600px) {
+||||||| merged common ancestors
+
+@media(max-width:600px){
+  .grid{
+    display:grid;
+    height:100vh;
+    margin:1vw;
+    grid-template-columns:98vw;
+    grid-template-rows: auto auto 15vh  auto;
+    grid-template-areas:
+    "hd"
+    "main"
+    "sd"
+    "ft";
+  }
+=======
+*/
+@media (min-width: 600px){
+>>>>>>> tmp
 
   p{
     width: 85vw;

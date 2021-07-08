@@ -120,7 +120,13 @@
   }
 }
 
+<<<<<<< HEAD
 @media screen{
+||||||| merged common ancestors
+@media(max-width:600px){
+=======
+@media (min-width: 600px){
+>>>>>>> tmp
   .sidebar{
     grid-area:sd;
     display: flex;
