@@ -28,6 +28,7 @@
 
 .sidebar{
   grid-area:sd;
+  justify-content: space-around;
 }
 
 .content{
@@ -39,7 +40,7 @@
 }
 
 #sidebar-nav{
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .card{
@@ -64,7 +65,8 @@
     grid-gap: 2vw;
   }
 
-  #sidebar-nav{
-    flex-direction: column;
+  .sidebar{
+    justify-content: flex-start;
   }
+
 }
