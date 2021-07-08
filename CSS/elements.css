@@ -19,3 +19,15 @@ h6{
 q{
   background-color: #a8da88;
 }
+
+nav{
+  display:flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+p{
+  width:fit-content;
+}

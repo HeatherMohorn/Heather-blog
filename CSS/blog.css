@@ -68,5 +68,28 @@
   .sidebar{
     justify-content: flex-start;
   }
+}
+
+@media(max-width:600px){
+  .grid{
+    display:grid;
+    height:100vh;
+    margin:1vw;
+    grid-template-columns:98vw;
+    grid-template-rows: auto auto 15vh  auto;
+    grid-template-areas:
+    "hd"
+    "main"
+    "sd"
+    "ft";
+  }
+
+  p{
+    width: 85vw;
+  }
+
+  q{
+    width:85vw;
+  }
 
 }
